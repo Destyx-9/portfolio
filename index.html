@@ -1,0 +1,654 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Mougeolle - Etudiant Developpeur WEB</title>
+  <meta name="description" content="Portfolio de Thomas Mougeolle - Etudiant Développeur Web">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="./js/global.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Thomas Mougeolle
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+          <li>
+            <a href="https://www.facebook.com/Meonji.TM" target="_blank">
+              <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512">
+                <path fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/thomasmougeolle/" target="_blank">
+              <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/DeathBl0ss0m_" target="_blank">
+              <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/meonji_9/" target="_blank">
+              <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero__item left">
+          <span>Etudiant developpement web</span>
+          <h1 class="title">Bonjour, Je suis Thomas Mougeolle de Metz</h1>
+          <p>Etudiant à la MNS de Metz en Développement Web, diplômé d'une licence d'information et de communication
+            numérique.</p>
+        </div>
+        <div class="hero__item right">
+          <div class="hero__avatar">
+            <img src="./img/avatar.png" width="400" height="400" loading="lazy"
+              alt="Avatar Thomas Mougeolle - Développeur web freelance">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <img src="./img/person.jpg" width="560" height="453" loading="lazy"
+            alt="Thomas Mougeolle - Etudiant developpeur web">
+        </div>
+        <div class="grid__item">
+          <h2 class="section-title">A propos</h2>
+          <h3>Qui suis-je</h3>
+          <p>Nouvel étudiant au sein de la <strong>Metz Numeric School</strong>, je suis déjà diplômé en information et
+            communication numérique et vise à devenir développeur web !
+          </p>
+          <p>J'ai eu la chance lors de mon cursus universitaire d'apprendre les bases du <strong>HTML, CSS et
+              Javascript</strong>, ainsi que de créer des sites sous Wordpress.
+            Je suis également bilingue en anglais !
+          </p>
+          <ul>
+            <li>Bases de HTML, CSS et Javascript</li>
+            <li>Niveau C2 (bilingue) en anglais</li>
+            <li>Compétences sur Photoshop et Illustrator</li>
+            <li>Désireux et soucieux d'apprendre !</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Porfolio</h2>
+        <p>Ce portfolio va principalement recouvrir et illustrer mes projets universitaire ainsi que quelques projets
+          personnels sur lesquels je me suis appuyé lors de mes études
+          universitaires et mes différents stages ainsi que mon CDD en entreprise.</p>
+      </div>
+      <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+          <a href="#" class="active" data-filter="all">Tous les projets</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="web">Développement web</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="design">Graphisme</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="app">Université</a>
+        </li>
+      </ul>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="./img/corinthe.png" loading="lazy" width="365" height="243"
+              alt="Page web de l'entreprise Les Dessous de Corinthe" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Page Web Les Dessous de Corinthe</h3>
+              <p class="category">Développement Web</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-1">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-1">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/corinthe.png" loading="lazy" width="560" height="373" class="card__image"
+                      alt="Projet site de la ville de lyon" />
+                    <img src="./img/corinthe2.png" loading="lazy" width="560" height="373" class="card__image"
+                      alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Refonte de site web</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2019</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Refonte graphique
+                    </p>
+                    <p>
+                      Après un poste en CDD dans le spa Les Dessous de Corinthe, il m'a été confié la tâche de la
+                      refonte du site sur Wordpress.
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Bien que principalement retravaillé sur Wordpress, j'ai eu l'occasion d'utiliser mes bases
+                      d'HTML
+                      et de CSS pour mener à bien ce projet, visitable ici : <a
+                        href="http://www.lesdessousdecorinthe.com" target="_blank">Les Dessous de Corinthe</a></p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML, CSS</li>
+                      <li>Wordpress</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="./img/fox.jpg" loading="lazy" width="365" height="243" alt="image du site du Fox Coffee Shop"
+              class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Aide à de la refonte de site web</h3>
+              <p class="category">Développement web</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-3">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-3">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/foxfull.jpg" loading="lazy" width="560" height="373" class="card__image"
+                      alt="Image du site du Fox Coffee Shop" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Aide à de la refonte de site Web</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2021</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Développement Web
+                    </p>
+                    <p>
+                      Lors de mes études universitaires, j'ai eu l'occasion de rentrer en stage au sein du Fox Coffee
+                      Shop et de participer principalement au community management
+                      de leurs réseaux sociaux mais aussi légèrement à la refonte du site Internet !
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      A la hauteur de mes connaissances à l'époque de ce stage de troisième année, j'ai eu le droit de
+                      me pencher légèrement sur la refonte du site avec le patron de
+                      l'établissement, ce qui fut un réel plaisir et une grande source d'apprentissage ! Le site ce
+                      trouve maintenant ici : <a href="https://foxcoffee.fr" target_blank> Fox Coffee Shop</a>
+                    </p>
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML, CSS</li>
+                      <li>Wordpress</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="./img/triple.jpg" loading="lazy" width="365" height="243"
+              alt="Image homme avec logo triple sur le visage" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Projet perso</h3>
+              <p class="category">Graphisme</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-2">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-2">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/triplefull.jpg" loading="lazy" width="560" height="373" class="card__image"
+                      alt="Image homme avec logo triple sur le visage" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Projet perso Photographie et Photoshop</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2018</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Photoshop
+                    </p>
+                    <p>
+                      Un de mes petits projets sur Photoshop !
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Rien d'exeptionnel ici, de la retouche de photographie avec Photoshop avec son style bien
+                      particulier qui me permet de m'exprimer !
+                    </p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Photographie</li>
+                      <li>Photoshop</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="./img/riot.jpg" loading="lazy" width="365" height="243" alt="logo de riot games"
+              class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Analyse de Site Web</h3>
+              <p class="category">Université</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-3">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-3">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/riot.jpg" loading="lazy" width="560" height="373" class="card__image"
+                      alt="Logo de riot games" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Analyse de site web</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2021</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Université
+                    </p>
+                    <p>
+                      Lors de mes études universitaires, j'ai eu l'occasion lors d'un TD de produire une analyse de
+                      site
+                      web, pas de son côté code, mais de son côté
+                      respect de charte graphique et accessibilité.
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Etant moi-même un grand joueur de League of Legends, un jeu produit par cette entreprise de
+                      jeux-vidéo, je me suis permis de choisir ce site à analyser
+                      et y passer un plaisir fou !
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="./img/glitch.jpg" loading="lazy" width="365" height="243" alt="image glitch" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Un autre projet perso</h3>
+              <p class="category">Graphisme</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-5">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-5">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/glitchfull.jpg" loading="lazy" width="560" height="373" class="card__image"
+                      alt="image glitch" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Un autre projet sur Photoshop</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2017</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Graphisme
+                    </p>
+                    <p>
+                      Un autre petit projet personnel sur Photoshop, ce coup-ci, pas de photographie, simplement du
+                      Photoshop pour un fanart glitché bien sympa !
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Encore dans ma vision et mes habituelles envies de travail sur Photoshop, ce projet date un peu
+                      maintenant mais le résultat n'a pas vieilli à mes yeux.
+                    </p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Photoshop</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="./img/ds2.jpg" loading="lazy" width="365" height="243" alt="couverture du jeu darks souls 2"
+              class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Analyse de jeux-vidéo</h3>
+              <p class="category">Université</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-6">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-6">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/ds2full.jpg" loading="lazy" width="560" height="373" class="card__image"
+                      alt="couverture du jeu vidéo dark souls 2" />
+                    <img src="./img/berserk.png" loading="lazy" width="560" height="373" class="card__image"
+                      alt="page du manga berserk" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Analyse de jeux-vidéo</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2020</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Université
+                    </p>
+                    <p>
+                      Un projet fort sympatique que dont j'ai eu la chance sur lequel travailler lors de mes études
+                      universitaires : Une analyse de jeu-vidéo, de son gameplay à sa vision
+                      esthétique et le pourquoi du comment pour créer un univers homogène.
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Choisi suite au simple fait que la série des Dark Souls est ma favorite de tout les temps, j'ai
+                      pû
+                      lors d'un TP universitaire en faire l'analyse et la découverte qu'un
+                      de mes mangas favori, Berserk, est une grande inspiration à ce jeu !
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p>Si vous souhaitez me contacter, n'hésitez pas à passer par ce petit formulaire, je reviendrai vers vous !</p>
+      </div>
+
+      <form action="https://formsubmit.co/adresse-mail" method="POST" class="form">
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="thomas.mougeolle.1997@gmail.com">
+
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <input type="submit" class="btn" value="Envoyer">
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <p>Thomas Mougeolle</p>
+        </div>
+        <div class="grid__item">
+          <ul class="socials list-unstyled">
+            <li>
+              <a href="https://www.facebook.com/Meonji.TM" target="_blank">
+                <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                  class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512">
+                  <path fill="currentColor"
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/thomasmougeolle/">
+                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                  data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/DeathBl0ss0m_">
+                <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                  class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/meonji_9/">
+                <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                  class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__item">
+          <p>Copyright © 2023 portfolio. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
