@@ -546,6 +546,10 @@ section {
     top: 0;
 }
 
+.mail a {
+    color: white
+}
+
 .mail {
     padding: 12.5px 30px;
     margin: 0 auto;
@@ -553,14 +557,14 @@ section {
     border: 0;
     border-radius: 100px;
     background-color: #5b6c78;
-    color: #d6e4f5;
+    color: #ffffff;
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
 
 .mail:hover {
-    background-color: #6fc5ff;
+    background-color: #10344b;
     box-shadow: 0 0 20px #6fc5ff50;
 }
 
